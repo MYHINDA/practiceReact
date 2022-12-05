@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, Outlet, useParams } from "react-router-dom";
 
 function UserComp() {
 
@@ -25,6 +25,7 @@ function UserComp() {
         
         <Link to="/posts">Posts</Link><br />
         <Link to="/todos">Todos</Link>
+        {/* <Outlet/> */}
     </div>
 }
 export default UserComp;
