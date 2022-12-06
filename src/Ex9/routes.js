@@ -12,8 +12,9 @@ function RoutesComp() {
         <Routes>
             <Route path="/" element={<MainComp />} />
             <Route path="/main" element={<MainComp />} />
-            <Route path="/user/:id" element={<UserComp />} />
-            <Route path="/posts" element={<PostComp />} />
+            <Route path="/user/:id" element={<UserComp />} >
+                <Route path="posts" element={<PostComp />} />
+                </Route>
             {/* <Route path="/todos" element={<TodosComp />} /> */}
         </Routes>
 

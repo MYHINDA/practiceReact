@@ -23,9 +23,9 @@ function UserComp() {
         ID:{user.id} <br/>
         Name: {user.name}<br />
         
-        <Link to="/posts">Posts</Link><br />
-        <Link to="/todos">Todos</Link>
-        {/* <Outlet/> */}
+        <Link to="posts">Posts</Link><br />
+        <Link to="todos">Todos</Link>
+        <Outlet/>
     </div>
 }
 export default UserComp;
