@@ -12,11 +12,11 @@ function PostComp() {
     useEffect(() => {
         async function fetchData() {
 
-            let resp = await axios.get("https://jsonplaceholder.typicode.com/posts/?userid=" + param.id);
+            let resp = await axios.get("https://jsonplaceholder.typicode.com/posts/?userid="+ param.id);
             setPosts(resp.data);
         }
         fetchData();
-    }, [param.id]);
+    }, []);
 
 
     return <div>
