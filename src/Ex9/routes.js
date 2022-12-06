@@ -15,7 +15,6 @@ function RoutesComp() {
             <Route path="/user/:id" element={<UserComp />} >
                 <Route path="posts" element={<PostComp />} />
                 </Route>
-            {/* <Route path="/todos" element={<TodosComp />} /> */}
         </Routes>
 
         

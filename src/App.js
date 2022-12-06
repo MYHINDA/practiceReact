@@ -1,11 +1,10 @@
 import './App.css';
-import MainComp from './Ex9/main';
-import RoutesComp from './Ex9/routes';
+import Page1Comp from './sessionStorage/page1';
 
 function App() {
   return (
     <div className="App">
-      <RoutesComp/>
+      <Page1Comp/>
     </div>
   );
 }

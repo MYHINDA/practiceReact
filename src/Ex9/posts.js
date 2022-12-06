@@ -12,15 +12,13 @@ function PostComp() {
     useEffect(() => {
         async function fetchData() {
 
-            let resp = await axios.get("https://jsonplaceholder.typicode.com/posts/?userid="+ param.id);
+            let resp = await axios.get("https://jsonplaceholder.typicode.com/posts/?userId="+ param.id);
             setPosts(resp.data);
         }
         fetchData();
     }, []);
 
-
     return <div>
-
         Title:
         <ul>
             {
@@ -28,8 +26,8 @@ function PostComp() {
                     return <li key={posts.id}>{item.title}</li>
                 })
             }
-        
-</ul>
+        </ul>
     </div>
 }
+
 export default PostComp;

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import UserComp from "./users";
 import axios from "axios";
 
 

@@ -17,15 +17,15 @@ function UserComp() {
         fetchData();
     }, [param.id]);
     
-
     return <div>
 
         ID:{user.id} <br/>
         Name: {user.name}<br />
         
         <Link to="posts">Posts</Link><br />
-        <Link to="todos">Todos</Link>
-        <Outlet/>
+        <Outlet />
+        
     </div>
 }
+
 export default UserComp;
