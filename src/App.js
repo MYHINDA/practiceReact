@@ -1,11 +1,11 @@
 import './App.css';
-import Changer from './Ex10_1/changer';
+import Host from './Ex10_2/host';
 
 
 function App() {
   return (
     <div className="App">
-      <Changer/>
+      <Host/>
     </div>
   );
 }

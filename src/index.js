@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import AppReducer from './Ex10_1/appReducer';
+import AppReducer from './Ex10_2/appReducer';
 
 
 
