@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
 function Page2Comp() {
-
+    
     const nevigate = useNavigate()
     const [user, setUser] = useState({ "firstName": "", "lastName": "" })
     

@@ -1,10 +1,11 @@
 import './App.css';
-import Page1Comp from './sessionStorage/page1';
+import Changer from './Ex10/changer';
+
 
 function App() {
   return (
     <div className="App">
-      <Page1Comp/>
+      <Changer/>
     </div>
   );
 }
