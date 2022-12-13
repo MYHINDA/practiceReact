@@ -4,12 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import AppReducer from './Ex10_2/appReducer';
-
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
